@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background-image: url('../img/fibra\ de\ carbono.jpg');
+    /* Nos permite poner una imagen de fondo */
+    background-position: center;
+    /* Centra la imagen de fondo en el contenedor */
+    background-attachment: fixed;
+    /* Fija la imagen de fondo, de modo que no se desplace con el contenido */
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    background-size: cover;
+    /* Escala la imagen de fondo para cubrir completamente el contenedor */
+    height: 100%;
+    /* Altura */
+}
+
+.formulario-cuadro {
+    border: 2px;
+    border-radius: 10%; /* Nos permite dar a los bordes una forma curvada */
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.formulario-cuadro h2 {
+    margin-top: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer {
+    margin-top: 12%;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> <!--Metaetiquetas-->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="Ejercicio08">
+     <meta name="author" name="Javier">
+     <link rel="stylesheet" href="./Styless/bootstrap.min.css">
+     <script src="./js/bootstrap.bundle.min.js"></script>
+     <link rel="stylesheet" href="./Styless/Styless.css">
+     <title>Hamburguesería javascript</title>
+</head>
+
+<body> <!--Sistema de regillas de bootstrap-->
+     <div class="container">
+          <div class="row text-center text-white bg-dark">
+               <div class="col-6"></div>
+               <div class="col-6"></div>
+          </div>
+          <!--header-->
+          <header>
+               <h2> Hamburguesería javascript </h2>
+               <h3> Presentamos nuestra Hamburguesería </h3>
+          </header>
+          <!--nav-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="container-fluid">
+                    <!--Contenido de laa barra de navegación-->
+                    <a class="navbar-brand" href="#">Menú</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                         aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                   <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="docs/Nosotros.html">Sobre nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="docs/Contacto.html">Contactanos</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="docs/Inicio sesión.html">Iniciar sesión</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="docs/Registro.html">Registrarse</a>
+                              </li>
+                         </ul>
+          </nav>
+          <!--Main-->
+          <main>
+               <h2> Nuestras Hamburguesas </h2>
+               <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                         <div class="card">
+                              <img src="img/recetas-de-hamburguesas-caseras.jpg" class="card-img-top" alt="..."
+                                   height="300" width="300">
+                              <div class="card-body">
+                                   <h5 class="card-title"> Hamburguesa Infantil </h5>
+                                   <p class="card-text text-dark">La hamburguesa perfecta para los niños.</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card">
+                              <img src="img/651087f3dc220ac73af00740_pexels-photo-3864681.jpeg"" class=" card-img-top"
+                                   alt="..." width="300" height="300">
+                              <div class="card-body">
+                                   <h5 class="card-title"> Hamburguesa Normal </h5>
+                                   <p class="card-text text-dark">Hamburguesa clásica de toda la vida.</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card">
+                              <img src="img/hamburguesa.jpg_2002894772.jpg" class="card-img-top" alt="..." width="300"
+                                   height="300">
+                              <div class="card-body">
+                                   <h5 class="card-title"> Hamburguesa Array </h5>
+                                   <p class="card-text text-dark">Hamburguesa array para los más hambrientos.</p>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div class="card">
+                              <img src="img/6255e2e41db6c.jpeg" class="card-img-top" alt="..." width="300" height="300">
+                              <div class="card-body">
+                                   <h5 class="card-title"> Hamburguesa Orientada a objetos </h5>
+                                   <p class="card-text text-dark">La hamburguesa de las hamburguesas, si vienes con
+                                        hambre esta
+                                        es la tuya.</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <h2> Nuestras hambuerguesas </h2>
+               <!--Tabla-->
+               <div class="table-responsive">
+                    <table class="table align-middle">
+                         <thead>
+                              <tr>
+                                   <td>Nombre</td>
+                                   <td>Precio</td>
+                                   <td>Ingredientes</td>
+                                   <td>Descripción</td>
+                              </tr>
+                         </thead>
+                         <tbody>
+                              <tr class="align-bottom">
+                                   <td class="align-top">Hamburguesa Infantil</td>
+                                   <td class="align-top"> 10€ </td>
+                                   <td class="align-top"> Lechuga, tomate, cebolla </td>
+                                   <td class="align-top"> Para los más pequeños </td>
+                              </tr>
+                              <tr class="align-bottom">
+                                   <td class="align-top">Hamburguesa Normal</td>
+                                   <td class="align-top"> 14€ </td>
+                                   <td class="align-top"> Lechuga, tomate, cebolla, huevo, bacon, </td>
+                                   <td class="align-top"> La normal </td>
+                              </tr>
+                              <tr class="align-bottom">
+                                   <td class="align-top"> Hamburguesa Array </td>
+                                   <td class="align-top"> 17€ </td>
+                                   <td class="align-top"> Lechuga, tomate, cebolla, huevo, bacon, doble carne </td>
+                                   <td class="align-top"> Grande </td>
+                              </tr>
+                              <tr class="align-bottom">
+                                   <td class="align-top">Hamburguesa bucle for</td>
+                                   <td class="align-top"> 20€ </td>
+                                   <td class="align-top"> Lechuga, tomate, cebolla, huevo, bacon, doble carne, bacon,
+                                        mostaza,
+                                        queso
+                                   </td>
+                                   <td class="align-top"> Grande de las grandes </td>
+                              </tr>
+                              <tr class="align-bottom">
+                                   <td class="align-top">Hamburguesa Orientada a objetos </td>
+                                   <td class="align-top"> 24€ </td>
+                                   <td class="align-top"> Lechuga, tomate, cebolla, huevo, bacon, triple carne, bacon,
+                                        mostaza,
+                                        queso chedar
+                                        kechub,
+                                   </td>
+                                   <td class="align-top"> La más grande del local </td>
+                              </tr>
+                         </tbody>
+                    </table>
+               </div>
+               <form class="formulario-cuadro"> <!--formulario-->
+                    <div class="form-row">
+                         <div class="form-group">
+                              <label for="inputEmail4">Nombre</label>
+                              <input type="text" class="form-control" required>
+                         </div>
+                         <div class="form-group">
+                              <label for="inputPassword4">Apellidos</label>
+                              <input type="text" class="form-control" required>
+                         </div>
+                    </div>
+                    <form class="formulario-cuadro2">
+                         <div class="form-group">
+                              <div class="form-check">
+                                   <label class="form-check-label" for="gridCheck"> </label>
+                                   <p class="colorNegro"> ¿ Cuál ha sido tu hamburguesa favorita ? </p>
+                                   <input type="radio" name="" id=""> Infantil <br>
+                                   <input type="radio" name="" id=""> Normal <br>
+                                   <input type="radio" name="" id=""> Array <br>
+                                   <input type="radio" name="" id=""> Bucle for <br>
+                                   <input type="radio" name="" id=""> Orientada a objetos <br>
+                                   <p class="colorNegro"> Rellena la fecha en la que has rellenado este formulario </p>
+                                   <input type="date" min="2023-01-01">
+                                   <p class="colorNegro"> Ingrese su edad </p>
+                                   <input type="number" name="edad" id="edad" min="18" max="65" required>
+                                   <p class="colorNegro"> Deja tu número para participar en un sorteo! </p>
+                                   <input type="text" id="telefono" name="telefono" placeholder="123-456-789"
+                                        pattern="[0-9]{9}" required> <br>
+                                   <br>
+                                   <p class="colorNegro"> Para participar en el sorteo es necesario que mande una foto
+                                        suya
+                                   </p>
+                                   <input type="file" class="btn btn-primary"> <br>
+                                   <br>
+                                   <input type="submit" class="btn btn-primary">
+                                   <input type="reset" class="btn btn-primary">
+                              </div>
+                         </div>
+                    </form>
+          </main>
+          <!--footer-->
+          <footer class="border-top">
+               <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                         <div class="col-md-10 col-lg-8 col-xl-7">
+                              <ul class="list-inline text-center">
+                                   <li class="list-inline-item">
+                                        <a href="github.com"><img src="img/github.png" height="20" width="20"></a>
+                                        <span class="fa-stack fa-lg">
+                                             <i class="fas fa-circle fa-stack-2x"></i>
+                                             <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        </a>
+                                   </li>
+                                   <li class="list-inline-item">
+                                        <a href="twitter.com"><img src="img/twitter-logo-black-and-white.png"
+                                                  height="20" width="20"></a>
+                                        <span class="fa-stack fa-lg">
+                                             <i class="fas fa-circle fa-stack-2x"></i>
+                                             <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        </a>
+                                   </li>
+                                   <li class="list-inline-item">
+                                        <a href="instagram.com"><img src="img/IG.png" height="20" width="20"></a>
+                                        <span class="fa-stack fa-lg">
+                                             <i class="fas fa-circle fa-stack-2x"></i>
+                                             <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        </a>
+                                   </li>
+                              </ul>
+                              <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+</body>
+
+</html>
